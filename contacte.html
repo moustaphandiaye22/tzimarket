@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .c1{
+                width: 50%;
+                color: gray;
+                background-color: gray;
+            }
+            .c1:hover{
+                color:black;
+                background-color: white;
+            }
+            .c2{
+                color: blueviolet;
+                text-transform: capitalize;
+            }
+            .c3{
+                display:block
+            }
+            .k1{
+            background-color:blueviolet;
+            color: black;
+        }
+        *{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: black;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: blueviolet;
+	padding: 15px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a{
+	color: red;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: black;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+.sous{
+display: none;
+position: absolute;
+}
+.menu li:hover.sous{
+    display: block;
+}
+.home{
+    display: flex;
+}
+.sous{
+    display: none;
+    position: absolute;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sous li{
+
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color:gray;
+}
+.navbar .menu li:hover .sous{ 
+    display: block;
+    color: blue;
+
+}
+        </style>
+
+    </head>
+<body>
+    <nav class="navbar">
+		<div class="max-width">
+			 <div class="logo">
+                     <a href="">TZI-<span>IMMO</span></a>
+                     <p><h3>cite benz</h3></p>
+			 </div>
+
+			 <ul class="menu">
+			 		<li><a href="">Acceuil</a><ul class="sous">
+                        
+                        
+                        </ul></li>
+                    <li><a href="">vente</a>
+                        <ul class="sous">
+                            <li><a href="villa.html" target="_blank">villa</a></li>
+                            <li><a href="appartement.html" target="_blank">appartement</a></li>
+                            
+                            </ul></li>
+                    <li><a href="">location</a>
+                    <ul class="sous">
+                    <li><a href="appartement.html" target="_blank">appartement</a></li>
+                    <li><a href="chambre.html" target="_blank">chambre</a></li>
+                    <li><a href="piscine.html" target="_blank">villa avec piscine</a></li>
+                    
+                    </ul>
+                    <li><a href="">decoration interieur</a>
+                        <ul class="sous">
+                            <li><a href="cuisine.html" target="_blank">cuisine</a></li>
+                            <li><a href="salle de bain.html" target="_blank">salle de bain</a></li>
+                            <li><a href="chambre.html" target="_blank">chambre</a></li>
+                            <li><a href="salon.html" target="_blank">salon</a></li>
+                        </ul></li>
+
+                    <li><a href="contacte.html" target="_blank">nous contacter</a><ul class="sous"></ul>       
+			 </li>
+            </ul>
+            </div>
+    </nav>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+   <p><center><h1 class="c2">CONTACTER NOUS</h1></center></p>
+   <div class="c3"><p><label>NOM</label></p>
+       <p><input class="c1" type="text" name="nom"></p>
+        
+        <p><label>PRENOM</label></p>
+        <p><input  class="c1" type="text" prenom="prenom"></p>
+        <p><label>TELEPHONE</label></p>
+        <input class="c1" type="number" number="age"></p>
+        <p><label>NATIONALITE</label></p>
+        <p><input class="c1" type="text" name="nationalite"></p>
+
+<p><label>DESCRIPTION</label></p>
+<p><textarea class="c1" name="desc" cols="50" rows="10"></textarea></p>
+<input type="reset" name="enoyer" value="envoyer">
+
+   <center><p> <h2>venez nous rendre visite dans nos bureau</h2></p><br>
+    <h3>TZI-immo .SA<br>
+    Adresse:sangalkam,rufisque<br>
+       Tel: (+221)33-141-12-51<br>
+        Tel:(+221) 77-141-12-51<br>
+        Email:tzi-immo@gmail.com</h3></div></center>
+</body>
+
+<footer>
+    <p ><center class="k1" >created &copy;by MOUSTAPHA NDIAYE all right reserved</center></p>
+</footer>
+
+
+
+
+</html>

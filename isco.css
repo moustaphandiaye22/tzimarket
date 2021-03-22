@@ -1,0 +1,240 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: black;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color: blueviolet;
+	padding: 15px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a{
+	color: red;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: black;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu li a{
+
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+.sous{
+display: none;
+position: absolute;
+}
+.menu li:hover.sous{
+    display: block;
+}
+.home{
+    display: flex;
+}
+.sous{
+    display: none;
+    position: absolute;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sous li{
+
+    float: none;
+    text-align: center;
+    width: 100%;
+    background-color:gray;
+}
+.navbar .menu li:hover .sous{ 
+    display: block;
+    color: blue;
+
+}
+
+@keyframes fondu {
+	0%{background-image:  url("pers.jpg");}
+	63%{background-image: url("florida-city-1.jpg");}
+	100%{background-image:  url("image002.png");}
+}
+.conteneur{
+	background-color: none;
+}
+.font{
+	width: 950px;
+	height: 600px;
+	margin-left: 30px auto;
+	box-shadow: opx 20px 8px -10px maroon;
+	background-color:none;
+	background-size: contain;
+	animation: fondu 10s ease-in-out infinite both;
+	background-repeat: no-repeat;
+	background-position: 0px 20px;
+	border: 0px solid blueviolet;
+}
+.home .max-width{
+	color: white;
+	margin: 10px 9px;
+	background-color:maroon;
+	
+}
+
+.home .home-content .text-1{
+	font-size: 40px;
+	font-weight: 600;
+	color:black;
+}
+
+.home .home-content .text-2{
+	color: red;
+	font-size: 60px;
+	font-weight: 500;
+
+	}
+
+.home .home-content .text-3{
+	font-size: 50px;
+	font-weight: 700;
+color:none;
+}
+.home .home-content .text-3 span{
+	color:black;
+}
+
+.tof{
+	width: 400px;
+	height: 300px;
+	box-align:center;
+	border-radius: 20px;
+	border:10px outset ;
+	background-color:beige;
+}
+.tof:hover{
+	color:blue;
+	background-color: crimson;
+}
+.a1{
+font-family: 'Gi	ll Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color:red ;
+
+}
+.t1{
+	font-family: monospace;
+	font-style:italic;
+	font-size: unset;
+
+
+}
+.t1:hover{
+	background-color: crimson;
+	color: darkblue;
+}
+.f1{
+	border-radius: 100px;
+	padding: 10px 40px;
+	margin-top: 20px;
+}
+.f2{
+	display: flex;
+	border-radius: 100px;
+	padding: 10px 40px;
+	margin-top: 50px;
+	
+	font-style:italic;
+	color:gray;
+}
+.vert-info{
+	display:flex;
+}
+.w12{
+	display:inline-flex;
+	padding: 10px 70px;
+	margin-top: 10px;
+	justify-content: space-between;
+	font-style: italic;
+}
+.w23{
+	display:inline-flex;
+	padding: 10px 60px;
+	margin-top: 10px;
+	justify-content: space-between;
+	font-style: italic;
+}
+.w33{
+	display:flex;
+	padding: 30px 70px;
+	margin-top: 10px;
+	justify-content: space-between;
+	font-style: italic;
+}
+.m1{
+	background-color: maroon;
+	border: 3px outset black;
+
+}
+.m2{
+	color:white;
+}
+.m1:hover{
+	background-color: blueviolet;
+	color: red;
+
+}
+.m3{
+	height: 75px;
+	width: 85px;
+	text-align: right;
+	display: flex;
+}
+.m4{
+	height: 30px;
+	width: 30px;
+	text-align: right 70%;
+	margin: 2px 50px;
+}
+.m5{
+	display: flex;
+}
+.k1{
+	background-color: blueviolet;
+	color: black;
+}
+.t1{
+	color: red;
+	font-size: 100%;
+	font: weight 25px;;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.t2{
+	
+	flex-direction: row-reverse;
+	font-style: italic;
+}
+.s0{
+	width: 100%;
+}
